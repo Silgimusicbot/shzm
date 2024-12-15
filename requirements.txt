@@ -16,5 +16,4 @@ PySocks
 shazamio
 TgCrypto
 typing-extensions
-unknown
 yarl
