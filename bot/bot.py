@@ -12,8 +12,8 @@ class bot(Client):
         config.read(config_file)
         name = name.lower()
         plugins = {'root': path.join(__package__, 'plugins')}
-        api_id = config.get('pyrogram', 'api_id')
-        api_hash = config.get('pyrogram', 'api_hash')
+        api_id = 23782247
+        api_hash = "3858cc2587c4e260a2e9ef3763cbcf9f"
         super().__init__(
             name,
             api_id=api_id,
