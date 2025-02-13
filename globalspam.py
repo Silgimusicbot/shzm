@@ -25,7 +25,7 @@ async def silgi(event):
         await conv.send_message("someone report me but I have not any wrong limited why account")
         await conv.get_response()
     await sleep(4)
-    await event.edit("✅ **Global Spam müraciəti tamamlandı!**\n⏳ **1 - 2 saat ərzində global spam açılacaq.**")
+    await event.reply("✅ **Global Spam müraciəti tamamlandı!**\n⏳ **1 - 2 saat ərzində global spam açılacaq.**")
 
 CmdHelp("globalspam").add_command(
     "globalspam", None, "@SpamBot-a avtomatik müraciət göndərir."
