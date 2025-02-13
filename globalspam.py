@@ -26,8 +26,6 @@ async def silgi(event):
         await conv.get_response()
 
     await event.edit("✅ **Global Spam müraciəti tamamlandı!**\n⏳ **1 - 2 saat ərzində global spam açılacaq.**")
-    await sleep(2)
-    await event.delete()
 
 CmdHelp("globalspam").add_command(
     "globalspam", None, "@SpamBot-a avtomatik müraciət göndərir."
